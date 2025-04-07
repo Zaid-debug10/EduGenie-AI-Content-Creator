@@ -166,6 +166,14 @@ Recommended Readings:
             navigator.clipboard.writeText(outputText).then(() => {
                 alert("Content copied to clipboard!");
             }).catch(err => {
+
+   Author
+Zaid Selia
+
+LinkedIn: Zaid Selia
+Email: [zaidselia61@gmail.com]
+Acknowledgments
+Internshala for providing the Generative AI Course and project guidelines.
                 alert("Failed to copy content: " + err);
             });
         }
