@@ -2,8 +2,6 @@
 Capstone project for Internshala Generative AI Course - A web-based tool to generate educational content using AI.
 # EduGenie: AI-Powered Educational Content Creator
 
-![EduGenie Screenshot](edugenie_screenshot.png)
-
 A web-based tool to generate educational content, developed as a capstone project for the Internshala Generative AI Course.
 
 ## Project Overview
@@ -24,7 +22,6 @@ EduGenie is a web application that generates educational content based on a user
 - **Future Scope:** Can be extended with a Python Flask backend for actual OpenAI API integration
 
 Code 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -166,17 +163,15 @@ Recommended Readings:
             navigator.clipboard.writeText(outputText).then(() => {
                 alert("Content copied to clipboard!");
             }).catch(err => {
-
-   Author
-Zaid Selia
-
-LinkedIn: Zaid Selia
-Email: [zaidselia61@gmail.com]
-Acknowledgments
-Internshala for providing the Generative AI Course and project guidelines.
                 alert("Failed to copy content: " + err);
             });
         }
     </script>
 </body>
 </html>
+Zaid Selia
+
+LinkedIn: Zaid Selia
+Email: [zaidselia61@gmail.com]
+Acknowledgments
+Internshala for providing the Generative AI Course and project guidelines.
